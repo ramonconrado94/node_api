@@ -5,8 +5,8 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.status(201).send({
-        title: "Node",
-        version: "0.0.1"
+        title: "APP Serviços",
+        version: "1.0.0"
     });
 });
 
